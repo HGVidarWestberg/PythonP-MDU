@@ -14,3 +14,12 @@ while condition:
 else:
     körs om while loopen inte blivit bruten
 
+
+syntaxfel = SyntaxError
+körfel = Exeptions
+logikfel = inget error 
+
+
+try/except används för att fånga fel
+except ValueError fångar upp bara om det är ett ValueError (funkar inte med syntaxfel)
+
