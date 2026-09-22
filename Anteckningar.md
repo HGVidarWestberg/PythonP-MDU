@@ -61,3 +61,33 @@ match letter:
         print("du valde a")
     case "_": 
         print("hittade inte tecken")
+
+type(variabel) visar variabeltypen
+
+del list[index] tar bort ett element i listan, funkar på fler datatyper
+list.append(innehåll) lägger till något sist i listan
+list.remove(innehåll) tar bort första elementen ur listan baserat på värdet (första innehåll)
+list.pop(index) tar bort ett element och returnerar det
+list.sort() sorterar i bokstavsordning (inte mellan int och str)
+list.count(innehåll) räknar alla av innehåll i listan
+
+när du deklarerar en varibel efter en annan pekar de på samma bit av minne => operationer sker på båda
+var.copy() skapar en kopia som inte pekar på samma bit minne
+
+item in list är ett bool-statement som kollar om itemen finns i list
+
+f=open("filnamn", encoding = "utf-8") öppnar en fil från samma mapp som pythonfilen som utf8
+t=f.read() ger en textsträng
+f.close stänger filen, annars kan man få problem med datorn
+
+f = open("filnamn", "w") byter ut filen mot en tom och öppnar den som redigerare
+f.write("text")
+
+with open("filnamn") as f: Stänger filen automatiskt när kodblocket slutar
+    t = f.read()
+
+i en .txt fil kan man bara skriva strängar, därför anväänder man json.dumps
+import json
+txt = json.dumps(list)
+
+list = json.loads(txt) ger tillbaka listan från json-formatet
