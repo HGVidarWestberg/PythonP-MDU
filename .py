@@ -1,1 +1,1 @@
-print(print(print("hello")))
+print(1 == "hej")
