@@ -91,3 +91,13 @@ import json
 txt = json.dumps(list)
 
 list = json.loads(txt) ger tillbaka listan från json-formatet
+
+def func(variabel:variabeltyp) -> variabeltyp som returneras:
+    """funktionsbeskrivning"""
+    pass
+
+
+
+
+
+
